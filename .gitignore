@@ -1,0 +1,37 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js dependencies & builds
+node_modules/
+dist/
+build/
+.eslintcache
+.vite-inspect
+
+# Project Configuration secrets & local environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database state
+*.sql.gz
+*.sqlite
+
+# Application Dynamic Uploads (keep directory structure but ignore contents)
+backend/uploads/visitor_images/*
+backend/uploads/qr_codes/*
+!backend/uploads/visitor_images/.gitkeep
+!backend/uploads/qr_codes/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
